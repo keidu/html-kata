@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.header-list {
+    font-size: 14px;
+    
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-section-text {
+    font-size: 1.4em;
+    margin-left:300px;
+    margin-right:300px;
+    text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.logo {
+  width: 70px;
+  margin-right: 1rem;
+}
+
+.magni {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(245,245,245);
+    border:none;
+    float:left;
+}
+
+.search-input {
+    padding: auto;
+    margin:0px;
+    border: 0px;
+    width: 800px;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    border:none;
+    height: 40px;
+    font-size: 1em;
+}
+
+.search-button {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 10px 15px 9px 15px;
+    margin: 0px;
+    background-color: #FB3B49;
+    border-top: 1px solid #FB3B49;
+    border-right: 1px solid #FB3B49;
+    border-bottom: 1px solid #FB3B49;
+    border-left: 1px solid #FB3B49;
+}
+
+.search-wrapper {
+    margin: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position:relative;
+    flex-basis:auto;
+    flex-grow:1;
+    flex-shrink:1;
+}
+
+
+content {
+  top: 44px;
+  padding-top: 45px;
+  padding-bottom: 20px;
+}
+
+.bar-section {
+    height: 3.5em;
+}
+ 
+.first-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(232,217,217,.3)
+}
+
+h1 {
+    font-size: 5.3rem;
+
+}
+
+.join-free {
+    color:black;
+    background-color: white;
+    display: block;
+    letter-spacing: 0.5px;
+    margin: 40px auto 0;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+.see-plans {
+    font-weight: bold;
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: #fff;
+    display: block;
+    letter-spacing: 0.5px;
+    margin: 40px auto 0;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    margin-right: 5em;
+}
+
+.join-link {
+    text-decoration: none;
+    color: #333333;
+    padding: 4px 12px 4px 12px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #333333;
+}
+
+
+
+.login-link {
+    text-decoration: none;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+}
+
+.mid-buttons {
+    
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	
+}
+
+
+.second-section {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:15px;
+}
+
+.triangle {
+    height:220px;
+}
+
+.heading {
+    background-color: rgba(255,204,53,.4);
+    transform: skew(9deg,0deg);
+    font-style: italic;
+    font-size: 220%;
+}
+
+
+
+.quote {
+    margin-left:200px;
+    margin-right:200px;
+    text-align: center;
+}
+
+.final-section {
+    height: 400px;
+}
+.features {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: center;
+    margin-left:100px;
+    margin-right:100px;
+
+}
+
+.zero {
+    height:40px;
+}
+
+.team {
+    height:40px;
+}
+
+.familiar {
+    height:40px;
+}
+
+.audit {
+    height:40px;
+}
+
+.create-org-btn {
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color:black;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    color: #fff;
+    display: block;
+    letter-spacing: 0.5px;
+    margin: 40px auto 0;
+    padding: 20px 100px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+}
+
+h3 {
+    color:#ED1C24;
+}
+
